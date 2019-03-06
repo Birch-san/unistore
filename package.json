@@ -4,6 +4,10 @@
   "description": "Dead simple centralized state container (store) with preact and react bindings.",
   "source": "src/index.js",
   "module": "dist/unistore.es.js",
+  "modules": [
+    "full/preact.es.js",
+    "full/react.es.js"
+  ],
   "main": "dist/unistore.js",
   "umd:main": "dist/unistore.umd.js",
   "typings": "index.d.ts",
